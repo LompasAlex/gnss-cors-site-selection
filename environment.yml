@@ -1,0 +1,14 @@
+name: gnss-cors-site-selection
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pandas
+  - geopandas
+  - fiona
+  - duckdb
+  - pyarrow
+  - requests
+  - urllib3
+

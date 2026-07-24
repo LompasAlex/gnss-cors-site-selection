@@ -1,0 +1,36 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+
+# Data & Output directories (Keep directory structure, ignore content)
+data/raw/*
+data/processed/*
+data/debug/*
+results/*
+
+# Exceptions: Allow .gitkeep files to preserve empty directories
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/debug/.gitkeep
+!results/.gitkeep
+
+# Ignore spatial & archive formats explicitly
+*.zip
+*.parquet
+*.gpkg
+*.shp
+*.dbf
+*.shx
+*.prj
