@@ -1,5 +1,12 @@
 # GNSS CORS Site Selection Pipeline
 
+[![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-181717?style=flat-square&logo=github)](https://github.com/LompasAlex/gnss-cors-site-selection)
+[![Python 3.11](https://img.shields.io/badge/Python-3.11-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
+[![DuckDB Spatial](https://img.shields.io/badge/DuckDB-Spatial_Engine-FFF000?style=flat-square&logo=duckdb&logoColor=black)](https://duckdb.org/)
+[![GeoPandas](https://img.shields.io/badge/GeoPandas-Spatial_ETL-139C55?style=flat-square&logo=pandas&logoColor=white)](https://geopandas.org/)
+[![GeoParquet](https://img.shields.io/badge/Storage-GeoParquet-008080?style=flat-square)](https://geoparquet.org/)
+[![QGIS](https://img.shields.io/badge/GIS-QGIS-589632?style=flat-square&logo=qgis&logoColor=white)](https://qgis.org/)
+
 An automated multi-criteria spatial analysis pipeline designed to optimize and accelerate the site selection process for new roof-type GNSS CORS (Continuously Operating Reference Stations) in the Kingdom of Saudi Arabia (KSA). This tool enables engineers and spatial analysts to identify and rank candidate buildings to densify the existing CORS network coverage.
 
 ## 📌 Overview
